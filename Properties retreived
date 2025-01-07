@@ -1,1 +1,2 @@
- = 'YourCity' AND Status = 'Available';
+SELECT * FROM Properties WHERE City = City AND Status = Available
+
