@@ -1,11 +1,11 @@
 INSERT INTO Properties (PropertyID, Address, Type, Price, Status) VALUES
-(1, '123 Main St', 'Residential', 200000, 'Available'),
-(2, '456 Oak Ave', 'Commercial', 500000, 'Rented'),
-(3, '789 Elm St', 'Residential', 150000, 'Available'),
-(4, '101 Pine St', 'Commercial', 800000, 'Sold'),
-(5, '202 Maple Ave', 'Residential', 250000, 'Available'),
-(6, '303 Birch St', 'Commercial', 400000, 'Rented'),
-(7, '404 Cedar St', 'Residential', 180000, 'Available'),
-(8, '505 Walnut St', 'Commercial', 600000, 'Sold'),
-(9, '606 Willow St', 'Residential', 220000, 'Available'),
-(10, '707 Oak Ave', 'Commercial', 750000, 'Rented');
+(1, 'kitintale', 'Residential', 200000, 'Available'),
+(2, 'mutungo', 'Commercial', 500000, 'Rented'),
+(3, 'kampala', 'Residential', 150000, 'Available'),
+(4, 'luzira', 'Commercial', 800000, 'Sold'),
+(5, 'kirombe', 'Residential', 250000, 'Available'),
+(6, 'biina', 'Commercial', 400000, 'Rented'),
+(7, 'bugolobi', 'Residential', 180000, 'Available'),
+(8, 'nakawa', 'Commercial', 600000, 'Sold'),
+(9, 'lugogo', 'Residential', 220000, 'Available'),
+(10, 'kyebando', 'Commercial', 750000, 'Rented');
