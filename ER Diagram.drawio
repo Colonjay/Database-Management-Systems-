@@ -5,7 +5,9 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Properties" value="&lt;b&gt;Properties&lt;/b&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="40" width="160" height="240" as="geometry" />
+          <mxGeometry x="100" y="40" width="160" height="240" as="geometry">
+            <mxRectangle x="100" y="40" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PropertyID" value="PropertyID (PK)" style="text;align=left;whiteSpace=wrap;html=1;" parent="Properties" vertex="1">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
@@ -29,7 +31,9 @@
           <mxGeometry y="210" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Agents" value="&lt;b&gt;Agents&lt;/b&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="350" width="160" height="180" as="geometry" />
+          <mxGeometry x="450" y="350" width="160" height="180" as="geometry">
+            <mxRectangle x="450" y="350" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="AgentID" value="AgentID (PK)" style="text;align=left;whiteSpace=wrap;html=1;" parent="Agents" vertex="1">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
@@ -44,7 +48,9 @@
           <mxGeometry y="120" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Clients" value="&lt;b&gt;Clients&lt;/b&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="320" width="160" height="180" as="geometry" />
+          <mxGeometry x="160" y="320" width="160" height="180" as="geometry">
+            <mxRectangle x="160" y="320" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ClientID" value="ClientID (PK)" style="text;align=left;whiteSpace=wrap;html=1;" parent="Clients" vertex="1">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
@@ -62,7 +68,9 @@
           <mxGeometry y="150" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Transactions" value="&lt;b&gt;Transactions&lt;/b&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="700" y="40" width="160" height="210" as="geometry" />
+          <mxGeometry x="700" y="40" width="160" height="210" as="geometry">
+            <mxRectangle x="700" y="40" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="TransactionID" value="TransactionID (PK)" style="text;align=left;whiteSpace=wrap;html=1;" parent="Transactions" vertex="1">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
