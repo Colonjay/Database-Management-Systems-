@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="26.0.4">
+  <diagram id="P3kpKGlXyNDzHJCWbzco" name="Page-1">
+    <mxGraphModel dx="1034" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Properties" value="&lt;b&gt;Properties&lt;/b&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="40" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="PropertyID" value="PropertyID (PK)" style="text;align=left;whiteSpace=wrap;html=1;" parent="Properties" vertex="1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Address" value="Address" style="text;align=left;whiteSpace=wrap;html=1;" parent="Properties" vertex="1">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="City" value="City" style="text;align=left;whiteSpace=wrap;html=1;" parent="Properties" vertex="1">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Type" value="Type" style="text;align=left;whiteSpace=wrap;html=1;" parent="Properties" vertex="1">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Size" value="Size" style="text;align=left;whiteSpace=wrap;html=1;" parent="Properties" vertex="1">
+          <mxGeometry y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Price" value="Price" style="text;align=left;whiteSpace=wrap;html=1;" parent="Properties" vertex="1">
+          <mxGeometry y="180" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Status" value="Status" style="text;align=left;whiteSpace=wrap;html=1;" parent="Properties" vertex="1">
+          <mxGeometry y="210" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Agents" value="&lt;b&gt;Agents&lt;/b&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="350" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="AgentID" value="AgentID (PK)" style="text;align=left;whiteSpace=wrap;html=1;" parent="Agents" vertex="1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AgentName" value="Name" style="text;align=left;whiteSpace=wrap;html=1;" parent="Agents" vertex="1">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ContactNumber" value="ContactNumber" style="text;align=left;whiteSpace=wrap;html=1;" parent="Agents" vertex="1">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CommissionRate" value="CommissionRate" style="text;align=left;whiteSpace=wrap;html=1;" parent="Agents" vertex="1">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Clients" value="&lt;b&gt;Clients&lt;/b&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="320" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ClientID" value="ClientID (PK)" style="text;align=left;whiteSpace=wrap;html=1;" parent="Clients" vertex="1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ClientName" value="Name" style="text;align=left;whiteSpace=wrap;html=1;" parent="Clients" vertex="1">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ClientContact" value="ContactNumber" style="text;align=left;whiteSpace=wrap;html=1;" parent="Clients" vertex="1">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Email" value="Email" style="text;align=left;whiteSpace=wrap;html=1;" parent="Clients" vertex="1">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Preferences" value="Preferences" style="text;align=left;whiteSpace=wrap;html=1;" parent="Clients" vertex="1">
+          <mxGeometry y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Transactions" value="&lt;b&gt;Transactions&lt;/b&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="40" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="TransactionID" value="TransactionID (PK)" style="text;align=left;whiteSpace=wrap;html=1;" parent="Transactions" vertex="1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TransactionPropertyID" value="PropertyID (FK)" style="text;align=left;whiteSpace=wrap;html=1;" parent="Transactions" vertex="1">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TransactionAgentID" value="AgentID (FK)" style="text;align=left;whiteSpace=wrap;html=1;" parent="Transactions" vertex="1">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TransactionClientID" value="ClientID (FK)" style="text;align=left;whiteSpace=wrap;html=1;" parent="Transactions" vertex="1">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TransactionType" value="TransactionType" style="text;align=left;whiteSpace=wrap;html=1;" parent="Transactions" vertex="1">
+          <mxGeometry y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TransactionDate" value="Date" style="text;align=left;whiteSpace=wrap;html=1;" parent="Transactions" vertex="1">
+          <mxGeometry y="180" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel1" value="" style="endArrow=classic;html=1;" parent="1" source="Properties" target="Transactions" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel2" value="" style="endArrow=classic;html=1;" parent="1" source="Agents" target="Transactions" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rel3" value="" style="endArrow=classic;html=1;" parent="1" source="Clients" target="Transactions" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
