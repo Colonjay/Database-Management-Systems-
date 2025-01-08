@@ -68,8 +68,8 @@
           <mxGeometry y="150" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Transactions" value="&lt;b&gt;Transactions&lt;/b&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="700" y="40" width="160" height="210" as="geometry">
-            <mxRectangle x="700" y="40" width="110" height="30" as="alternateBounds" />
+          <mxGeometry x="670" y="40" width="160" height="210" as="geometry">
+            <mxRectangle x="670" y="40" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TransactionID" value="TransactionID (PK)" style="text;align=left;whiteSpace=wrap;html=1;" parent="Transactions" vertex="1">
